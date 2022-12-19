@@ -1,0 +1,6 @@
+2022.12.19 13:45:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Repos\github.com\cepheus-info\jenkins-sample-spring-boot\.metals\lsp.trace.json or C:\Users\wujun\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.19 13:45:06 INFO  logging to file D:\Repos\github.com\cepheus-info\jenkins-sample-spring-boot\.metals\metals.log
+2022.12.19 13:45:06 INFO  Started: Metals version 0.11.9 in workspace 'D:\Repos\github.com\cepheus-info\jenkins-sample-spring-boot' for client Visual Studio Code 1.74.1.
+2022.12.19 13:45:08 INFO  time: initialize in 1.91s
+2022.12.19 13:45:09 WARN  Build server is not auto-connectable.
+2022.12.19 13:46:02 INFO  shutting down Metals

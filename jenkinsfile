@@ -1,0 +1,36 @@
+/* groovylint-disable CompileStatic */
+pipeline {
+    agent {
+        label 'jenkins-agent'
+    }
+    stages {
+        stage('git clone') {
+            steps {
+                echo '========executing git clone========'
+                git url: 'https://github.com/cepheus-info/jenkins-sample-spring-boot.git'
+            }
+            post {
+                always {
+                    echo '========always========'
+                }
+                success {
+                    echo '========git clone executed successfully========'
+                }
+                failure {
+                    echo '========git clone execution failed========'
+                }
+            }
+        }
+    }
+    post {
+        always {
+            echo '========always post========'
+        }
+        success {
+            echo '========pipeline executed successfully ========'
+        }
+        failure {
+            echo '========pipeline execution failed========'
+        }
+    }
+}
